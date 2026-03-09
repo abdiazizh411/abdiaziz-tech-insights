@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdiaziz Tech Insights | AI & Telecom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-dark: #0a0b10;
+            --card-bg: #161b22;
+            --accent-blue: #00d4ff;
+            --text-main: #e6edf3;
+            --text-dim: #8b949e;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 10%;
+            background: rgba(10, 11, 16, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--accent-blue); }
+        .nav-links a { color: var(--text-main); text-decoration: none; margin-left: 2rem; font-size: 0.9rem; transition: 0.3s; }
+        .nav-links a:hover { color: var(--accent-blue); }
+
+        /* Hero Section */
+        header {
+            padding: 100px 10%;
+            text-align: center;
+            background: radial-gradient(circle at center, #112240 0%, #0a0b10 100%);
+        }
+
+        header h1 { font-size: 3rem; margin-bottom: 1rem; }
+        header p { color: var(--text-dim); max-width: 600px; margin: 0 auto; }
+
+        /* Section Styling */
+        section { padding: 60px 10%; }
+        h2 { border-left: 4px solid var(--accent-blue); padding-left: 15px; margin-bottom: 30px; }
+
+        /* Grid Layouts */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-blue); }
+        .tag { color: var(--accent-blue); font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
+
+        /* Footer */
+        footer { text-align: center; padding: 40px; border-top: 1px solid #30363d; color: var(--text-dim); }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Abdiaziz Tech</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#learn">Learn</a>
+            <a href="#tools">Tools</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <header id="home">
+        <h1>Abdiaziz Tech Insights</h1>
+        <p>Exploring the intersection of AI, Data Analytics, and Telecommunications technology.</p>
+    </header>
+
+    <section id="blog">
+        <h2>Latest Insights</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="tag">Telecom</span>
+                <h3>AI in 5G Network Optimization</h3>
+                <p>How machine learning models are reducing latency in modern cell towers...</p>
+            </div>
+            <div class="card">
+                <span class="tag">Data</span>
+                <h3>Predictive Churn Analysis</h3>
+                <p>Using Python to identify at-risk customers before they switch providers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Tech Stack & Tools</h2>
+        <div class="grid">
+            <div class="card" style="text-align: center;">
+                <i class="fab fa-python fa-3x" style="color:#3776ab"></i>
+                <p>Python (Pandas, Scikit-learn)</p>
+            </div>
+            <div class="card" style="text-align: center;">
+                <i class="fas fa-database fa-3x" style="color:#00d4ff"></i>
+                <p>SQL & BigQuery</p>
+            </div>
+            <div class="card" style="text-align: center;">
+                <i class="fas fa-chart-bar fa-3x" style="color:#f2c811"></i>
+                <p>Power BI Dashboards</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am <strong>Abdiaziz Hassan</strong>, a tech enthusiast specializing in bridging the gap between raw data and telecommunication strategy. I build tools that turn signal into insight.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abdiaziz Tech Insights | Built for the Future</p>
+    </footer>
+
+</body>
+</html>
