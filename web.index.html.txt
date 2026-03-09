@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdiaziz Tech Insights</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+color:#38bdf8;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:25px;
+background:#020617;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.section{
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Abdiaziz Tech Insights</h1>
+<p>Data Analytics | AI | Telecommunications</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Blog</a>
+<a href="#">Learn Data</a>
+<a href="#">Tools</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Welcome to My Technology Hub</h2>
+<p>Sharing insights about Data Analytics, Artificial Intelligence, and Telecommunications.</p>
+</div>
+
+<div class="section">
+
+<h2>Latest Posts</h2>
+
+<div class="card">
+<h3>Introduction to Data Analytics</h3>
+<p>Learn the basics of data analytics and how companies use data to make decisions.</p>
+</div>
+
+<div class="card">
+<h3>How AI is Changing Technology</h3>
+<p>Artificial intelligence is transforming industries from healthcare to telecom.</p>
+</div>
+
+<div class="card">
+<h3>Telecommunication and Data Networks</h3>
+<p>An overview of modern telecom networks and how data flows across the internet.</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>About Me</h2>
+
+<p>
+My name is Abdiaziz Hassan. I graduated in Telecommunications Engineering and I am passionate about Data Analytics, Artificial Intelligence, and technology innovation. This website is where I share knowledge, tutorials, and updates about modern data tools and telecom technologies.
+</p>
+
+</div>
+
+<footer>
+
+<p>© 2026 Abdiaziz Hassan | Abdiaziz Tech Insights</p>
+
+</footer>
+
+</body>
+</html>
